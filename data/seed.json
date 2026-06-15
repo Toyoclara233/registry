@@ -5147,7 +5147,7 @@
   },
   {
     "name": "io.github.dappierai/dappier-mcp",
-    "description": "Enable fast, free real-time web search and access premium data from trusted media brands—news, financial markets, sports, entertainment, weather, and more. Build powerful AI agents with Dappier.",
+    "description": "Enable fast, free real-time web search and access premium data from trusted media brands - news, financial markets, sports, entertainment, weather, and more. Build powerful AI agents with Dappier.",
     "repository": {
       "url": "https://github.com/DappierAI/dappier-mcp",
       "source": "github",
@@ -12201,6 +12201,39 @@
         "transport": {
           "type": "stdio"
         }
+      }
+    ]
+  },
+  {
+    "name": "com.xquik/mcp",
+    "description": "X data platform with 120 REST endpoints, 2 MCP tools, 23 extraction tools, webhooks, and writes.",
+    "repository": {
+      "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "source": "github",
+      "id": "1168120544"
+    },
+    "version": "2.4.8",
+    "websiteUrl": "https://docs.xquik.com/mcp/overview",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://xquik.com/mcp",
+        "headers": [
+          {
+            "description": "Xquik API key from the account page",
+            "isRequired": true,
+            "format": "string",
+            "value": "Bearer {XQUIK_API_KEY}",
+            "isSecret": true,
+            "name": "Authorization",
+            "variables": {
+              "XQUIK_API_KEY": {
+                "description": "Xquik API key",
+                "isSecret": true
+              }
+            }
+          }
+        ]
       }
     ]
   },
